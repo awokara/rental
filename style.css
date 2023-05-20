@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.text-navy{
+    color: rgb(36, 36, 197);
+}
+
+.first-bkg{
+    background: url('./img/rentals14.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.firt-bg{background-color: rgba(0, 0, 0, 0.418);}
+.future{
+    font-size: 30px;
+    font-weight: bold;
+}
+.unit{gap: 25px; color: rgb(99, 26, 167); }
+.unit1{font-weight: bold; font-size: 20px;}
+.unitproperty{justify-content: space-around;}
+.supermarket{border: 0px solid black; border-radius: 10px;}
+.comfort{font-size: 25px;}
+.card-btm{border: 1px solid rgba(0, 0, 0, 0.289); border-bottom: 0px; border-top: 0px; width: 80px;height: 23px;}
+.text-purple{color: rgba(97, 11, 178, 0.597);}
+.chair{
+    background: url('./img/rentals13.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; height: 600px;}
+.car1{border: 1px solid; border-radius: 10px;}
+.chair1{ height: 600px; background-color: rgba(0, 0, 0, 0.324);}
+.map1{width: 600px;}
+
+
+@media screen and (max-width:800px){
+    .chair{
+        height: 950px !important;
+    }
+  }
